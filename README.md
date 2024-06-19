@@ -22,6 +22,6 @@ In addition to the mentioned goals, there is one other that I'm doing just to pr
 So I do play games both modern and retro, I'm more a fan of older ones for both their graphics and stories as well as interesting mechanics. In terms of programming a game, I've used pygame for most python based games and I've done tiny bits with c# with and without unity. I've never done animated sprites before as well as many other things that will need to be included in this RPG.
 
 
-![GitHub issues](https://img.shields.io/github/issues/jamster3000/Son-of-Hammond)
-![Last Commit](https://img.shields.io/github/last-commit/jamster3000/Son-of-Hammond)
-![GitHub Stars](https://img.shields.io/github/stars/jamster3000/Son-of-Hammond?style=social)![Code Size](https://img.shields.io/github/languages/code-size/jamster3000/Son-of-Hammond)
+![GitHub issues](https://img.shields.io/github/issues/Jamster3000/Son-of-Hammond)
+![Last Commit](https://img.shields.io/github/last-commit/Jamster3000/Son-of-Hammond)
+![GitHub Stars](https://img.shields.io/github/stars/Jamster3000/Son-of-Hammond?style=social)![Code Size](https://img.shields.io/github/languages/code-size/Jamster3000/Son-of-Hammond)
