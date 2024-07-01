@@ -2,6 +2,11 @@
 
 Son of Hammond is one of my game ideas that I've always wanted to bring to life. This game aims to be a massive, complex, and engaging experience, allowing players to do almost anything they can imagine. Think of it as a city builder game mixed with elements from Grand Theft Auto and various RPGs, all presented in a top-down perspective with a retro-styled 16-bit aesthetic. I've made a start with the main menu, but there's still a lot of work to be done. This project is currently a future plan and not yet in the work-in-progress stage, as I have many ongoing projects.
 
+## Current Implementations
+### sohIO (S-O-you-eye)
+Started working on a custom made module for the game's UI. The game's UI will include things such as the pause menu, inventory menu, etc. 
+The UI currently has implimentations for buttons, single or mulit-line input box, and a list box.
+
 ## Key Features
 
 ### Starting Point
