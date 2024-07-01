@@ -1,0 +1,35 @@
+## Development Team
+- lead designer			Jamie Baines
+- level designer		Jamie Baines	
+- mechanics designer		Jamie Baines
+
+## programming
+- lead programmer		Jamie Binaes
+- additional programmers	Jamie Baines
+
+## artist
+- lead artist			Jamie Baines
+- concept artist		Jamie Baines
+- character artist		Jamie Baines
+- environment artists		Jamie Baines
+
+## music and sound effects
+- Composer
+- Sound designer
+- Voice actors (maybe?)
+
+## Production team
+- project manager		Jamie Baines
+- QA tester			Jamie Baines
+- feedback providers		
+
+## technical support
+- Framework			Developed using the Pygame Framework
+- Sprite Editor			Aesprite
+- Pixelify Font			The Pixelify Sans Project (https://github.com/eifetx/Pixelify-Sans)
+
+## Third party tools
+- Virtual PamTam		https://www.yishama.com/virtual-pantam-playground/
+
+## Community
+- Community Contributions
