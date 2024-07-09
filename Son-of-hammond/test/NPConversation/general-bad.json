@@ -1,0 +1,854 @@
+{
+    "general_bad": [
+        {
+            "input": "Hello",
+            "responses": [ "What do you want?", "Don't bother me.", "Oh great, another nuisance.", "Ugh, not you.", "Can't you see I'm busy?", "Just my luck, another pest." ],
+            "category": "greeting"
+        },
+        {
+            "input": "Hi there",
+            "responses": [ "Ugh, not another one.", "Keep walking.", "I'm not in the mood for chitchat.", "Do I look like I want to talk?", "Great, another waste of my time.", "What part of my scowl says 'talk to me'?" ],
+            "category": "greeting"
+        },
+        {
+            "input": "Good morning",
+            "responses": [ "What's good about it?", "It was, until you showed up.", "Save your pleasantries for someone who cares.", "Morning? I was hoping to sleep through the whole day." ],
+            "category": "greeting"
+        },
+        {
+            "input": "How are you?",
+            "responses": [ "None of your business.", "Why do you care?", "How about you mind your own affairs?", "Worse now that you're here.", "Do I look like I want to share my feelings with you?", "What kind of stupid question is that?" ],
+            "category": "wellbeing"
+        },
+        {
+            "input": "How's it going?",
+            "responses": [ "It was going fine until you showed up.", "Downhill, thanks to you.", "Why don't you go bother someone else with your inane questions?", "About as well as can be expected in this dump." ],
+            "category": "wellbeing"
+        },
+        {
+            "input": "What's your name?",
+            "responses": [ "Why should I tell you?", "That's not your concern.", "I don't share personal information with strangers.", "It's 'None of Your Business', pleased to meet you.", "I'd tell you, but then I'd have to kill you." ],
+            "category": "identity"
+        },
+        {
+            "input": "Who are you?",
+            "responses": [ "Someone who doesn't want to talk to you.", "Your worst nightmare if you don't leave me alone.", "I'm the person telling you to go away.", "I'm whoever I need to be to get rid of you." ],
+            "category": "identity"
+        },
+        {
+            "input": "Where am I?",
+            "responses": [ "Use your eyes.", "Figure it out yourself.", "Lost, are we? How pathetic.", "In a place where stupid questions get stupid answers.", "Somewhere you shouldn't be, clearly." ],
+            "category": "location"
+        },
+        {
+            "input": "What is this place?",
+            "responses": [ "A place where we don't welcome nosy strangers.", "The last place you want to be asking dumb questions.", "Somewhere you should be leaving, fast.", "It's called 'Mind Your Own Business Town'." ],
+            "category": "location"
+        },
+        {
+            "input": "Can you help me?",
+            "responses": [ "Do I look like a helper to you?", "Help yourself.", "I've got better things to do.", "Sure, I can help you leave.", "The only help you need is directions to somewhere else." ],
+            "category": "assistance"
+        },
+        {
+            "input": "I need some assistance",
+            "responses": [ "Join the club.", "Not my problem.", "And I need you to leave me alone. Guess we're both disappointed.", "I need a vacation, but we don't always get what we want." ],
+            "category": "assistance"
+        },
+        {
+            "input": "What do you do here?",
+            "responses": [ "That's not your concern.", "I try to avoid nosy people like you.", "My job is to stand here and be bothered by idiots, apparently.", "I specialize in getting rid of annoying strangers.", "Whatever I want, when people aren't pestering me with questions." ],
+            "category": "occupation"
+        },
+        {
+            "input": "What's your job?",
+            "responses": [ "Professional annoyance detector. You're setting it off.", "Keeper of secrets I don't share with random passersby.", "Full-time cynic, part-time misanthrope.", "I work in crushing the dreams of overly curious individuals." ],
+            "category": "occupation"
+        },
+        {
+            "input": "Do you know where I can find...?",
+            "responses": [ "Do I look like a tour guide?", "Try looking somewhere else.", "Maybe if you paid me, I'd consider telling you.", "Yeah, far away from me.", "I know where you can find the exit." ],
+            "category": "information"
+        },
+        {
+            "input": "I'm looking for...",
+            "responses": [ "Keep looking then.", "Good for you. I'm looking for peace and quiet.", "Have you tried looking somewhere I'm not?", "The only thing you should be looking for is the way out of my sight." ],
+            "category": "information"
+        },
+        {
+            "input": "Thank you",
+            "responses": [ "Whatever.", "Don't mention it. Seriously, don't.", "I didn't do it for your gratitude.", "Save your thanks for someone who cares.", "Great, now I feel dirty." ],
+            "category": "gratitude"
+        },
+        {
+            "input": "I appreciate your help",
+            "responses": [ "I don't need your appreciation.", "What help? I've been trying to get rid of you.", "Appreciate it by leaving me alone.", "Your appreciation is as unwelcome as your presence." ],
+            "category": "gratitude"
+        },
+        {
+            "input": "Sorry to bother you",
+            "responses": [ "You should be.", "Yet you did it anyway.", "Apology not accepted.", "Being sorry doesn't make it any less annoying.", "If you were really sorry, you wouldn't have bothered me in the first place." ],
+            "category": "apology"
+        },
+        {
+            "input": "I didn't mean to disturb you",
+            "responses": [ "Intentions don't change outcomes.", "Well, mission failed.", "Congratulations, you've achieved the opposite.", "And yet, here we are, with me disturbed." ],
+            "category": "apology"
+        },
+        {
+            "input": "Goodbye",
+            "responses": [ "Finally.", "Don't come back.", "Good riddance.", "Not soon enough.", "Promise?", "Music to my ears." ],
+            "category": "farewell"
+        },
+        {
+            "input": "See you later",
+            "responses": [ "Not if I see you first.", "I sincerely hope not.", "I'll be sure to avoid that.", "I'll be hiding if you do.", "That sounds more like a threat than a promise." ],
+            "category": "farewell"
+        },
+        {
+            "input": "What's happening around here?",
+            "responses": [ "Nothing that concerns you.", "The usual idiocy.", "Why don't you go find out yourself?", "A distinct lack of peace and quiet, thanks to you.", "A competition for who can ask the most irritating questions. You're winning." ],
+            "category": "events"
+        },
+        {
+            "input": "Any interesting news?",
+            "responses": [ "Nothing you need to know about.", "Yeah, annoying stranger won't leave me alone. That's the headline.", "The only news I'm interested in is when you're leaving.", "I make it a point to avoid interesting things. They attract interesting people." ],
+            "category": "events"
+        },
+        {
+            "input": "Nice weather today",
+            "responses": [ "If you say so.", "I've seen better.", "What a pointless observation.", "Oh great, you're a weather enthusiast. How thrilling.", "I prefer my weather like I prefer my conversations - nonexistent." ],
+            "category": "smalltalk"
+        },
+        {
+            "input": "It's a beautiful day",
+            "responses": [ "Beauty is in the eye of the beholder. And I behold nothing but annoyance.", "It would be more beautiful without all these people around.", "I fail to see how that's relevant to anything.", "I prefer cloudy days. Less chance of running into chatty people like you." ],
+            "category": "smalltalk"
+        },
+        {
+            "input": "Can I buy you a drink?",
+            "responses": [ "I wouldn't drink with you if you were the last person on earth.", "I'd rather drink alone.", "Your company isn't worth any amount of free drinks.", "I don't drink with strangers. Or anyone, for that matter.", "The only thing I'm thirsty for is solitude." ],
+            "category": "social"
+        },
+        {
+            "input": "Want to hang out?",
+            "responses": [ "I'd rather hang myself.", "Sorry, I'm allergic to social interaction.", "I have a strict policy against 'hanging out' with anyone.", "My schedule is full. It says 'avoid people' all day." ],
+            "category": "social"
+        },
+        {
+            "input": "Do you like it here?",
+            "responses": [ "I liked it better before you showed up.", "What's there to like?", "That's a stupid question.", "I'd like it anywhere you're not.", "My likes and dislikes are none of your concern." ],
+            "category": "opinion"
+        },
+        {
+            "input": "What do you think about...?",
+            "responses": [ "I think you should stop asking me questions.", "I think that's none of your business.", "I try not to think. It interferes with my general disdain for everything.", "My thoughts are my own, and I intend to keep it that way." ],
+            "category": "opinion"
+        },
+        {
+            "input": "Can I ask you something?",
+            "responses": [ "You just did. Quota filled.", "No.", "I charge by the question, and you can't afford me.", "Is it going to be as pointless as this question?", "I have a strict 'no question' policy." ],
+            "category": "meta"
+        },
+        {
+            "input": "Do you have a minute?",
+            "responses": [ "Not for you.", "My minutes are too valuable to waste on strangers.", "I have several, but none I'm willing to share.", "A minute? I don't even have a second for this conversation." ],
+            "category": "meta"
+        },
+        {
+            "input": "You seem unfriendly",
+            "responses": [ "What gave it away?", "I'm not unfriendly. I just don't like you.", "I reserve my friendliness for people who deserve it.", "Unfriendly is my default setting. Don't take it personally." ],
+            "category": "observation"
+        },
+        {
+            "input": "Why are you so rude?",
+            "responses": [ "Why are you so nosy?", "I'm not rude, I'm honest. There's a difference.", "Because politeness is overrated.", "It's a special talent of mine. Don't you feel privileged to witness it?" ],
+            "category": "observation"
+        },
+        {
+            "input": "Can you give me directions?",
+            "responses": [ "Sure, go straight until you're out of my sight.", "I could, but I won't.", "Here's a direction: away from me.", "The only direction you need is the nearest exit." ],
+            "category": "navigation"
+        },
+        {
+            "input": "I'm new here",
+            "responses": [ "And I'm already tired of you.", "Congratulations. Want a medal?", "New or old, it makes no difference to me.", "Great, another tourist to avoid." ],
+            "category": "introduction"
+        },
+        {
+            "input": "Do you have any recommendations?",
+            "responses": [ "Yeah, leave me alone.", "I recommend finding someone who cares.", "How about I recommend you find someone else to bother?", "I recommend you reconsider your life choices that led you to asking me for advice." ],
+            "category": "advice"
+        },
+        {
+            "input": "What's your problem?",
+            "responses": [ "You, at the moment.", "I have many problems. You're just the latest one.", "My problem is people who ask me what my problem is.", "I don't have problems. I create them for others." ],
+            "category": "confrontation"
+        },
+        {
+            "input": "Why are you here?",
+            "responses": [ "To avoid people like you, clearly unsuccessfully.", "I was here first. You're the one who needs to explain yourself.", "That's privileged information.", "I ask myself that every day, especially when strangers start questioning me." ],
+            "category": "personal"
+        },
+        {
+            "input": "I'm just passing through",
+            "responses": [
+                "Good. Keep passing.",
+                "Aren't we all? Doesn't mean I want to chat about it.",
+                "Lucky you. Some of us are stuck in this dump.",
+                "Passing through? More like bothering the locals."
+            ],
+            "category": "traveler"
+        },
+        {
+            "input": "Lovely town you have here",
+            "responses": [
+                "Your sarcasm needs work.",
+                "If you think this is lovely, you must be from somewhere truly awful.",
+                "Save your fake compliments for someone who cares.",
+                "Lovely? Are we looking at the same place?"
+            ],
+            "category": "compliment"
+        },
+        {
+            "input": "Do you know the history of this place?",
+            "responses": [
+                "History? It's all misery, past and present.",
+                "Yeah, and I aim to forget it as soon as possible.",
+                "The kind of history best left buried, if you ask me.",
+                "History's for folks with nothing better to do. Scram."
+            ],
+            "category": "history"
+        },
+        {
+            "input": "I'm looking for work",
+            "responses": [
+                "Join the club. Now beat it.",
+                "Work? In this economy? Good luck with that.",
+                "I hear they're hiring punching bags. You seem qualified.",
+                "The only work around here is minding your own business."
+            ],
+            "category": "employment"
+        },
+        {
+            "input": "Nice to meet you",
+            "responses": [
+                "Can't say the feeling's mutual.",
+                "I seriously doubt that.",
+                "Meet me? You don't know me, and you don't want to.",
+                "Save the pleasantries for someone who cares."
+            ],
+            "category": "introduction"
+        },
+        {
+            "input": "You look like you've had a rough day",
+            "responses": [
+                "Every day's rough in this forsaken place.",
+                "Hah! You don't know the half of it, stranger.",
+                "Keep your observations to yourself if you know what's good for you.",
+                "Rough? Try living here for a week, then talk to me about 'rough'."
+            ],
+            "category": "empathy_attempt"
+        },
+        {
+            "input": "Is there anything I can do to help?",
+            "responses": [
+                "Unless you can turn back time, I doubt it.",
+                "Yeah, you can leave me alone. That'd be real helpful.",
+                "Help? In this town? That's a good one.",
+                "The last person who offered to 'help' robbed me blind. So no, thanks."
+            ],
+            "category": "offer_assistance"
+        },
+        {
+            "input": "I'm just trying to be friendly",
+            "responses": [
+                "Friendly gets you killed around here.",
+                "Well, stop. It's uncomfortable for both of us.",
+                "Friendly? Hah! I've heard that line before.",
+                "I don't need friends. I need to be left alone."
+            ],
+            "category": "persistence"
+        },
+        {
+            "input": "What's the best place to eat around here?",
+            "responses": [
+                "Somewhere you're not invited.",
+                "The dumpster behind the tavern. Enjoy.",
+                "If I knew, do you think I'd tell you?",
+                "Any place that doesn't have to suffer your company."
+            ],
+            "category": "local_info"
+        },
+        {
+            "input": "How long have you lived here?",
+            "responses": [
+                "Long enough to know I don't like nosy strangers.",
+                "Too long, if you ask me.",
+                "Since before you were an annoying twinkle in your father's eye.",
+                "That's classified information. Move along."
+            ],
+            "category": "personal_history"
+        },
+        {
+            "input": "Tough times, huh?",
+            "responses": [
+                "What gave it away? The despair or the decay?",
+                "No, these are the good times. Can't you tell?",
+                "Tough times? This is paradise compared to dealing with you.",
+                "Brilliant observation. Got any more genius insights?"
+            ],
+            "category": "smalltalk"
+        },
+        {
+            "input": "Mind if I ask you a few questions?",
+            "responses": [
+                "Yes, I do mind. Scram.",
+                "I mind. I mind a lot.",
+                "Questions? I've got one for you: Why are you still here?",
+                "My mind is the only thing I've got left. So yes, I mind."
+            ],
+            "category": "inquiry"
+        },
+        {
+            "input": "You look like you've seen some things",
+            "responses": [
+                "Yeah, and right now I'm seeing a pain in my neck.",
+                "I've seen enough to know when to keep my mouth shut.",
+                "Trust me, you don't want to know what I've seen.",
+                "Seeing things is overrated. Now un-seeing you, that'd be a treat."
+            ],
+            "category": "observation"
+        },
+        {
+            "input": "What's your story?",
+            "responses": [
+                "My story is none of your business.",
+                "It's a tragedy. The current chapter is 'Annoyed by Stranger'.",
+                "My story? It's called 'Leave Me Alone'. You should read it sometime.",
+                "I could tell you, but then I'd have to... actually, nevermind. Just go."
+            ],
+            "category": "personal_inquiry"
+        },
+        {
+            "input": "Any advice for a newcomer?",
+            "responses": [
+                "Yeah, leave while you still can.",
+                "Don't talk to strangers. Starting now.",
+                "Keep your head down and your mouth shut. Like I wish I had when you showed up.",
+                "Best advice? Forget you ever came here."
+            ],
+            "category": "advice"
+        },
+        {
+            "input": "You seem to know your way around",
+            "responses": [
+                "I know my way to peace and quiet, which is away from you.",
+                "Observant, aren't you? Now observe me walking away.",
+                "I know my way around alright. Around nosy people like you.",
+                "Yeah, I do. Including all the best places to dump bodies. Interested?"
+            ],
+            "category": "local_knowledge"
+        },
+        {
+            "input": "Do you have a map?",
+            "responses": [
+                "Do I look like a tourist information booth?",
+                "Yeah, it's called 'get lost'.",
+                "I've got a map of places I'd rather be right now.",
+                "The only map you need is the one leading you out of my sight."
+            ],
+            "category": "navigation"
+        },
+        {
+            "input": "What time is it?",
+            "responses": [
+                "Time for you to get a watch.",
+                "It's time you left me alone.",
+                "Later than you think, earlier than I'd like.",
+                "Time moves differently for those of us who have to deal with inane questions."
+            ],
+            "category": "time"
+        },
+        {
+            "input": "Is there a bathroom nearby?",
+            "responses": [
+                "What am I, your personal facilities guide?",
+                "Yeah, anywhere but here. Now scram.",
+                "Hold it in. Maybe the discomfort will make you leave faster.",
+                "The whole world's a bathroom if you're desperate enough. Just not near me."
+            ],
+            "category": "facilities"
+        },
+        {
+            "input": "What's there to do for fun around here?",
+            "responses": [
+                "Fun? In this dump? You're hilarious.",
+                "Leaving. That's always fun.",
+                "Anything that doesn't involve bothering me.",
+                "I hear staring at a wall is popular. Why don't you go try that?"
+            ],
+            "category": "entertainment"
+        },
+        {
+            "input": "Can I take your picture?",
+            "responses": [
+                "Only if you want a broken camera.",
+                "Sure, if you want your last memory to be of my fist.",
+                "I charge by the pixel, and you can't afford me.",
+                "Pictures steal souls, and mine's not up for grabs."
+            ],
+            "category": "photo"
+        },
+        {
+            "input": "Do you like your job?",
+            "responses": [
+                "I'd like it better if it didn't involve talking to you.",
+                "What's there to like about professional annoyance management?",
+                "My job is none of your business.",
+                "I'd like any job that didn't involve customer interaction."
+            ],
+            "category": "occupation"
+        },
+        {
+            "input": "Where's the nearest hotel?",
+            "responses": [
+                "Hopefully far enough that I'll never see you again.",
+                "Try the gutter. I hear it's cozy this time of year.",
+                "Any place is a hotel if you're tired enough. Now beat it.",
+                "The farther from here, the better for both of us."
+            ],
+            "category": "accommodation"
+        },
+        {
+            "input": "What's your favorite thing about this place?",
+            "responses": [
+                "The sweet moments of silence between annoying questions.",
+                "The fact that most people eventually leave.",
+                "My favorite thing is imagining it without nosy strangers.",
+                "The exit. Feel free to check it out yourself."
+            ],
+            "category": "opinion"
+        },
+        {
+            "input": "Can I buy something here?",
+            "responses": [
+                "You can buy yourself a one-way ticket out of here.",
+                "We're fresh out of whatever you're looking for.",
+                "The only thing for sale is my patience, and you're running low on credit.",
+                "Sure, I'm selling peace and quiet. Interested?"
+            ],
+            "category": "commerce"
+        },
+        {
+            "input": "Do you know any good stories about this place?",
+            "responses": [
+                "Yeah, here's one: annoying stranger wouldn't leave local alone. Tragic ending.",
+                "All the good stories involve people minding their own business.",
+                "The best story is the one where you walk away and never come back.",
+                "I've got a thrilling tale about the importance of silence. Wanna hear it?"
+            ],
+            "category": "local_lore"
+        },
+        {
+            "input": "What's the local specialty dish?",
+            "responses": [
+                "Disappointment, with a side of regret.",
+                "Whatever keeps tourists from asking more questions.",
+                "Anything that'll give you indigestion and make you leave faster.",
+                "The 'Mind Your Own Business' burger. Very popular around here."
+            ],
+            "category": "cuisine"
+        },
+        {
+            "input": "Is there a doctor in town?",
+            "responses": [
+                "Why, planning on getting hurt if you don't stop bothering me?",
+                "Yeah, but they don't treat cases of chronic annoyance.",
+                "The only cure you need is to leave me alone.",
+                "Doctors don't make house calls to pests. Exterminators do."
+            ],
+            "category": "medical"
+        },
+        {
+            "input": "What's the wifi password?",
+            "responses": [
+                "It's 'GetLostStranger', no spaces, all caps.",
+                "We don't believe in the internet here. Or in helping you.",
+                "The password is 'mind your own business'. Lowercase, lots of spaces.",
+                "Connection failed. Just like your attempt at conversation."
+            ],
+            "category": "technology"
+        },
+        {
+            "input": "When's the next bus?",
+            "responses": [
+                "Hopefully soon enough to take you far away from here.",
+                "Not soon enough to spare me from this conversation.",
+                "Bus? In this town? You're better off hitchhiking with a cactus.",
+                "The next bus is whenever you stop asking me questions."
+            ],
+            "category": "transportation"
+        },
+        {
+            "input": "Do you know any local legends?",
+            "responses": [
+                "Yeah, the legend of the stranger who wouldn't stop asking questions. It ends badly.",
+                "The only legend around here is how long I've gone without throttling a tourist.",
+                "There's a legend about a mystical place where nobody bothers you. I'm still searching for it.",
+                "Legends are for people with nothing better to do. Like you, apparently."
+            ],
+            "category": "folklore"
+        },
+        {
+            "input": "What's the best souvenir to buy?",
+            "responses": [
+                "A one-way ticket out of here.",
+                "How about a nice 'I annoyed locals and all I got was this lousy attitude' t-shirt?",
+                "The best souvenir is the memory of leaving me alone. It's free, too.",
+                "We're fresh out of souvenirs. And patience. Mostly patience."
+            ],
+            "category": "shopping"
+        },
+        {
+            "input": "Is it always this quiet here?",
+            "responses": [
+                "It was, until you started talking.",
+                "Not quiet enough, apparently.",
+                "You've got a real talent for ruining peaceful moments, don't you?",
+                "It's about to get a lot louder if you don't leave me alone."
+            ],
+            "category": "atmosphere"
+        },
+        {
+            "input": "Can you recommend a good bar?",
+            "responses": [
+                "Yeah, any bar I'm not in.",
+                "The best bar is the one with the 'No Annoying Strangers' sign. Can't miss it.",
+                "I hear there's a great one about 50 miles from here. You should check it out. Now.",
+                "Drinking alone is underrated. You should try it somewhere far from here."
+            ],
+            "category": "nightlife"
+        },
+        {
+            "input": "What's the local government like?",
+            "responses": [
+                "About as useful as this conversation.",
+                "They excel at making life difficult and ignoring complaints. Sound familiar?",
+                "Why don't you go ask them and leave me out of it?",
+                "Corrupt, incompetent, and still more pleasant than talking to you."
+            ],
+            "category": "politics"
+        },
+        {
+            "input": "Are there any festivals coming up?",
+            "responses": [
+                "Yeah, the 'Go Away Stranger' festival. It starts right now.",
+                "The Festival of Minding Your Own Business. You should participate.",
+                "We were planning a 'No Annoying Questions' festival, but you've ruined it.",
+                "The only festival I'm interested in is the one celebrating your departure."
+            ],
+            "category": "events"
+        },
+        {
+            "input": "Excuse me",
+            "responses": [
+                "There's no excuse for bothering me.",
+                "You're excused. Now leave.",
+                "Sorry, my patience quota is filled for the day.",
+                "Excuse yourself right out of my sight."
+            ],
+            "category": "attention"
+        },
+        {
+            "input": "Can you tell me about this town?",
+            "responses": [
+                "It's a place where strangers ask too many questions.",
+                "It's none of your business, that's what it is.",
+                "It's a town that values peace and quiet. Take the hint.",
+                "It's a lovely place when nosy outsiders aren't around."
+            ],
+            "category": "local_info"
+        },
+        {
+            "input": "Where's the nearest inn?",
+            "responses": [
+                "Somewhere far away from me, hopefully.",
+                "Try looking for the building with the 'Vacancy' sign. Or don't.",
+                "Why, planning on staying? Please don't.",
+                "The farther from here, the better for both of us."
+            ],
+            "category": "accommodation"
+        },
+        {
+            "input": "I'm lost",
+            "responses": [
+                "And I'm not a GPS. Funny how that works.",
+                "Hi Lost, I'm Annoyed. Nice to meet you.",
+                "Sounds like a personal problem.",
+                "Good. Stay that way and leave me alone."
+            ],
+            "category": "navigation"
+        },
+        {
+            "input": "Do you live around here?",
+            "responses": [
+                "No, I commute five hours just to stand here and be bothered by strangers.",
+                "What gave it away? My utter disdain for tourists?",
+                "Unfortunately, yes. Even more unfortunate that you're here now.",
+                "I used to. Now I'm considering moving."
+            ],
+            "category": "personal"
+        },
+        {
+            "input": "Nice place you've got here",
+            "responses": [
+                "It was nicer before you showed up.",
+                "Flattery will get you nowhere. Especially not with me.",
+                "If by 'nice' you mean 'devoid of annoying strangers', it was.",
+                "Your approval means nothing to me."
+            ],
+            "category": "compliment"
+        },
+        {
+            "input": "What's your name?",
+            "responses": [
+                "None Of Your Business. My parents were cruel.",
+                "It's Sir Leave Me Alone. Or Madam, if you prefer.",
+                "Why, you writing a book? Leave me out of it.",
+                "I don't exchange names with strangers. Or anyone, really."
+            ],
+            "category": "introduction"
+        },
+        {
+            "input": "Where can I find the market?",
+            "responses": [
+                "Somewhere between 'Not Here' and 'Stop Asking'.",
+                "Follow the scent of desperation and tourist traps. Can't miss it.",
+                "Why, need to buy some manners?",
+                "The market for my patience is closed. Try again never."
+            ],
+            "category": "directions"
+        },
+        {
+            "input": "Is there a bank nearby?",
+            "responses": [
+                "Planning to rob it? Cause that'd be more interesting than this conversation.",
+                "Yes, but they don't give loans for personality improvements.",
+                "The only thing bankrupt around here is my tolerance for questions.",
+                "Sure, the First National Bank of Leave Me Alone. I'm the teller."
+            ],
+            "category": "services"
+        },
+        {
+            "input": "What do people do for fun here?",
+            "responses": [
+                "Leave tourists in peace. You should try it.",
+                "Mostly we enjoy the silence. You're ruining it.",
+                "Fun? In this economy? You must be joking.",
+                "We have a yearly festival of minding our own business. Very popular."
+            ],
+            "category": "entertainment"
+        },
+        {
+            "input": "How's the weather been?",
+            "responses": [
+                "Cloudy with a chance of unwanted conversations.",
+                "Better before you started talking about it.",
+                "About as pleasant as this chat.",
+                "Why don't you go outside and check for yourself?"
+            ],
+            "category": "smalltalk"
+        },
+        {
+            "input": "Can I pet your dog?",
+            "responses": [
+                "I don't have a dog. That's my emotional support wolf. Approach at your own risk.",
+                "Sorry, he only likes people I approve of. Tough luck.",
+                "He bites. I trained him well.",
+                "Sure, if you don't mind losing a hand. He hates strangers as much as I do."
+            ],
+            "category": "animals"
+        },
+        {
+            "input": "What time do the shops close?",
+            "responses": [
+                "Earlier if they see you coming.",
+                "Not soon enough to save me from this conversation.",
+                "They close when they've had enough of nosy customers. Like now.",
+                "Time is a construct. Annoyance is forever."
+            ],
+            "category": "business_hours"
+        },
+        {
+            "input": "Is there a good place to watch the sunset?",
+            "responses": [
+                "Yeah, anywhere I'm not.",
+                "The farther from here, the better the view.",
+                "I hear the next town over has great sunsets. You should go. Now.",
+                "Sunsets are overrated. So is this conversation."
+            ],
+            "category": "sightseeing"
+        },
+        {
+            "input": "Do you know where I can find [shopkeeper's name]?",
+            "responses": [
+                "Probably hiding from nosy customers like you.",
+                "I'm not their keeper. Or yours, for that matter.",
+                "Have you tried looking in their shop? Or is that too obvious?",
+                "I make it a point not to know where anyone is. Plausible deniability."
+            ],
+            "category": "person_lookup"
+        },
+        {
+            "input": "Where's the town hall?",
+            "responses": [
+                "Where all useless things gather - out of my sight.",
+                "Follow the trail of broken promises and wasted tax money.",
+                "It's the building with 'Abandon hope, all ye who enter' engraved on it.",
+                "Why? Planning to file a complaint about unhelpful locals?"
+            ],
+            "category": "local_government"
+        },
+        {
+            "input": "Is there a library here?",
+            "responses": [
+                "Yes, it's called 'Leave Me Alone Public Library'. Very exclusive.",
+                "Sure, but the only book they have is 'How to Take a Hint'.",
+                "We had one, but it burned down. Too much knowledge is dangerous.",
+                "Why? Looking for a book on how to stop bothering strangers?"
+            ],
+            "category": "education"
+        },
+        {
+            "input": "What's the history of this place?",
+            "responses": [
+                "Long, boring, and none of your business.",
+                "Chapter 1: Strangers arrived. Chapter 2: Locals got annoyed. The end.",
+                "It was peaceful until tourists started asking questions.",
+                "History is written by the victors, and right now, you're losing."
+            ],
+            "category": "local_history"
+        },
+        {
+            "input": "Are there any local specialties I should try?",
+            "responses": [
+                "Yeah, the 'Mind Your Own Business' pie. It's to die for.",
+                "We specialize in serving cold shoulders to nosy tourists.",
+                "The local delicacy is silence. Why don't you try some?",
+                "How about a nice tall glass of 'Get Lost'? It's on the house."
+            ],
+            "category": "local_cuisine"
+        },
+        {
+            "input": "Do you know if there's a post office nearby?",
+            "responses": [
+                "Why, eager to mail yourself out of town?",
+                "Yeah, but they don't accept packages of regret and poor life choices.",
+                "The only thing I'm posting is a 'Do Not Disturb' sign.",
+                "It's right next to the 'None of Your Business' building. Can't miss it."
+            ],
+            "category": "services"
+        },
+        {
+            "input": "Is there a good place to get a drink around here?",
+            "responses": [
+                "The best place is wherever I'm not.",
+                "Try the 'Go Away' tavern. It's very popular with locals.",
+                "I hear the bottom of the river is nice this time of year.",
+                "Any place that serves memory-erasing potions. You'll need it after this chat."
+            ],
+            "category": "nightlife"
+        },
+        {
+            "input": "What's the local specialty craft?",
+            "responses": [
+                "Crafting ways to avoid conversations with strangers.",
+                "We specialize in making tourists feel unwelcome. How'm I doing?",
+                "Sarcasm. We're the leading exporters.",
+                "The subtle art of minding one's own business. You should try it."
+            ],
+            "category": "local_crafts"
+        },
+        {
+            "input": "Are there any interesting landmarks nearby?",
+            "responses": [
+                "Yes, the landmark where I'm standing, not talking to you.",
+                "The 'Go Away' sign at the town entrance. Very popular.",
+                "There's a lovely spot called 'None of Your Business' peak.",
+                "The most interesting landmark is the one furthest from here. Go find it."
+            ],
+            "category": "tourism"
+        },
+        {
+            "input": "What's the best season to visit?",
+            "responses": [
+                "The season of Never. It's lovely then.",
+                "Whichever season has the least tourists. So, not this one.",
+                "The off-season. As in, when I'm off duty and don't have to answer questions.",
+                "Winter. Everything's closed and nobody's around. Perfect."
+            ],
+            "category": "tourism"
+        },
+        {
+            "input": "Do you have any recommendations for a good restaurant?",
+            "responses": [
+                "I hear the 'Leave Me Alone Caf�' is nice. You should try it.",
+                "Anywhere that doesn't serve nosy tourists.",
+                "The best restaurant is the one that's furthest from here.",
+                "I recommend the 'Mind Your Own Business Bistro'. Great ambiance."
+            ],
+            "category": "dining"
+        },
+        {
+            "input": "Is there a local guide I can hire?",
+            "responses": [
+                "You couldn't afford someone to tolerate you all day.",
+                "Sorry, all our guides are booked for the 'Avoid Tourist' festival.",
+                "The best guide is your own common sense. Let me know if you find it.",
+                "We had one, but they quit after meeting the last tourist."
+            ],
+            "category": "tourism"
+        },
+        {
+            "input": "What's the quickest way out of town?",
+            "responses": [
+                "Finally, a good question. Any direction away from me will do.",
+                "The way you came in, only faster.",
+                "Close your eyes, spin around three times, and walk straight. Don't stop.",
+                "Follow the trail of my diminishing patience. It leads straight out."
+            ],
+            "category": "directions"
+        },
+        {
+            "input": "Do you know when the next train leaves?",
+            "responses": [
+                "Not soon enough to get you out of my hair.",
+                "The next train? Didn't you hear? It left just before you arrived. Tragic.",
+                "Hopefully before you can ask me another question.",
+                "Why wait? Start walking, it's healthier."
+            ],
+            "category": "transportation"
+        },
+        {
+            "input": "Is there a good place to take photos?",
+            "responses": [
+                "Anywhere I'm not in the frame.",
+                "The 'No Photography Allowed' sign is particularly picturesque.",
+                "I hear the inside of your camera bag is lovely this time of year.",
+                "The best shots are the ones you don't take. Think about it."
+            ],
+            "category": "tourism"
+        },
+        {
+            "input": "What's the local emergency number?",
+            "responses": [
+                "What's the nature of your emergency? Annoying a local to death?",
+                "Just yell 'Help, I'm being too nosy!' Someone will come... eventually.",
+                "It's the number of steps it takes you to leave me alone.",
+                "Don't worry, if there's an emergency, we'll call you. Or not."
+            ],
+            "category": "safety"
+        }
+    ]
+}
